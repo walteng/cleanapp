@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 //resetting form
-document.querySelector("#submitClear").addEventListener("click", (event) => {
+document.querySelector("#submitClear").addEventListener("submit", (event) => {
   document.querySelector(".fill").reset();
   event.preventDefault();
 });
